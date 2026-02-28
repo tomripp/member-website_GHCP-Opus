@@ -6,7 +6,17 @@
 
 **Here my prompt:**
 
-> Help me to create a new website. It should have a homepage, a members area that requires login, and an impressum page. Users should be able to register, verify their email, log in and out, and reset their password. The site should support both English and German. Use Next.js, Tailwind CSS, Prisma with PostgreSQL, and deploy it to Railway.
+> Here my prompt:
+Help me to create a new website. It should have the following features:
+Homepage for free content
+Navigation to an area for member content, only accessible for registered users
+Login/logout functionality
+Register functionality, with email verification workflow
+Lost password reset functionality via reset link, sent to email
+multi-language DE / EN
+Clean, professional design
+Footer with Impressum link, when clicked showing some random name and address
+Needed backend code to be hosted on railway.com
 
 **What it created:**
 
@@ -16,10 +26,6 @@ A full-stack membership website with authentication, bilingual content (EN/DE), 
 
 > 📐 For a deep dive into the system design, see **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**
 > 🧪 For a deep dive into the testing strategy, see **[docs/TESTING.md](docs/TESTING.md)**
-
----
-
-A full-stack, multi-language web application with public content, protected member area, and complete authentication workflows. Built with Next.js 16 and designed for deployment on Railway.com.
 
 ---
 
