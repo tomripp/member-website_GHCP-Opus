@@ -1,9 +1,25 @@
 # myWebsite
 
-A full-stack, multi-language web application with public content, protected member area, and complete authentication workflows. Built with Next.js 16 and designed for deployment on Railway.com.
+---
 
-> 📐 **[Architecture Description →](docs/ARCHITECTURE.md)**
-> 🧪 **[Testing Strategy →](docs/TESTING.md)**
+🤖 **An experiment to find out what AI code generation can accomplish.**
+
+**Here my prompt:**
+
+> Help me to create a new website. It should have a homepage, a members area that requires login, and an impressum page. Users should be able to register, verify their email, log in and out, and reset their password. The site should support both English and German. Use Next.js, Tailwind CSS, Prisma with PostgreSQL, and deploy it to Railway.
+
+**What it created:**
+
+A full-stack membership website with authentication, bilingual content (EN/DE), and a protected members area — built with Next.js and deployed on Railway.
+
+🔗 **Check out the result: [member-websiteghcp-opus-production.up.railway.app](https://member-websiteghcp-opus-production.up.railway.app)**
+
+> 📐 For a deep dive into the system design, see **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**
+> 🧪 For a deep dive into the testing strategy, see **[docs/TESTING.md](docs/TESTING.md)**
+
+---
+
+A full-stack, multi-language web application with public content, protected member area, and complete authentication workflows. Built with Next.js 16 and designed for deployment on Railway.com.
 
 ---
 
