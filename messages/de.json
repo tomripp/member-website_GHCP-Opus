@@ -1,0 +1,138 @@
+{
+  "Navigation": {
+    "home": "Startseite",
+    "members": "Mitgliederbereich",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "register": "Registrieren"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Willkommen bei myWebsite",
+      "subtitle": "Entdecken Sie unsere kostenlosen Inhalte und werden Sie Mitglied für exklusive Ressourcen.",
+      "cta": "Loslegen",
+      "ctaMembers": "Mitgliederbereich"
+    },
+    "features": {
+      "title": "Unsere Inhalte entdecken",
+      "articles": {
+        "title": "Neueste Artikel",
+        "description": "Bleiben Sie auf dem Laufenden mit unseren neuesten Einblicken, Tutorials und Branchennachrichten. Wöchentlich neue Inhalte.",
+        "content": "Unser Expertenteam veröffentlicht regelmäßig ausführliche Artikel über die neuesten Trends in Technologie, Design und Wirtschaft. Ob Anfänger oder erfahrener Profi – hier finden Sie wertvolle Inhalte."
+      },
+      "guides": {
+        "title": "Einstiegsanleitungen",
+        "description": "Schritt-für-Schritt-Anleitungen, die Ihnen den Einstieg erleichtern und helfen, alle Ressourcen optimal zu nutzen.",
+        "content": "Von den ersten Schritten bis zu fortgeschrittenen Techniken führen unsere umfassenden Anleitungen Sie durch alles Wissenswerte. Jede Anleitung enthält praktische Beispiele und reale Anwendungen."
+      },
+      "community": {
+        "title": "Community",
+        "description": "Werden Sie Teil unserer wachsenden Community von Fachleuten und Enthusiasten, die Wissen und Erfahrungen teilen.",
+        "content": "Vernetzen Sie sich mit Gleichgesinnten, beteiligen Sie sich an Diskussionen und teilen Sie Ihr eigenes Fachwissen. Unsere Community basiert auf Zusammenarbeit und gegenseitiger Unterstützung."
+      }
+    }
+  },
+  "MembersPage": {
+    "title": "Mitgliederbereich",
+    "subtitle": "Willkommen zurück! Hier sind Ihre exklusiven Inhalte.",
+    "premium": {
+      "title": "Premium-Artikel: Fortgeschrittene Strategien",
+      "description": "Tauchen Sie tief in fortgeschrittene Strategien ein, die Ihre Fähigkeiten auf das nächste Level bringen. Dieser exklusive Inhalt ist nur für registrierte Mitglieder verfügbar.",
+      "tag": "Premium"
+    },
+    "tutorial": {
+      "title": "Exklusives Tutorial: Skalierbar Bauen",
+      "description": "Lernen Sie, wie Sie skalierbare Systeme aufbauen, mit unserer Schritt-für-Schritt-Tutorialreihe. Inklusive Code-Beispiele und Best Practices.",
+      "tag": "Tutorial"
+    },
+    "dashboard": {
+      "title": "Mitglieder-Dashboard",
+      "description": "Verfolgen Sie Ihren Fortschritt, verwalten Sie Ihr Profil und erhalten Sie personalisierte Empfehlungen basierend auf Ihren Interessen.",
+      "tag": "Dashboard"
+    },
+    "webinar": {
+      "title": "Kommendes Webinar: Branchentrends 2026",
+      "description": "Nehmen Sie am 15. März an unserem Live-Webinar teil, bei dem Branchenexperten aufkommende Trends und ihre Auswirkungen diskutieren.",
+      "tag": "Event"
+    }
+  },
+  "Auth": {
+    "login": {
+      "title": "Anmelden",
+      "subtitle": "Willkommen zurück! Bitte melden Sie sich an.",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "forgotPassword": "Passwort vergessen?",
+      "noAccount": "Noch kein Konto?",
+      "register": "Hier registrieren",
+      "error": "Ungültige E-Mail oder Passwort. Bitte stellen Sie sicher, dass Ihre E-Mail verifiziert ist.",
+      "success": "Erfolgreich angemeldet!"
+    },
+    "register": {
+      "title": "Konto erstellen",
+      "subtitle": "Werden Sie Mitglied bei myWebsite für exklusive Inhalte.",
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "submit": "Konto erstellen",
+      "hasAccount": "Bereits ein Konto?",
+      "login": "Hier anmelden",
+      "success": "Konto erstellt! Bitte überprüfen Sie Ihre E-Mail, um Ihr Konto zu verifizieren.",
+      "errorEmail": "Ein Konto mit dieser E-Mail existiert bereits.",
+      "errorPassword": "Passwörter stimmen nicht überein.",
+      "errorGeneral": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    },
+    "forgotPassword": {
+      "title": "Passwort zurücksetzen",
+      "subtitle": "Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Link zum Zurücksetzen.",
+      "email": "E-Mail-Adresse",
+      "submit": "Link senden",
+      "success": "Falls ein Konto mit dieser E-Mail existiert, haben wir einen Link zum Zurücksetzen gesendet.",
+      "backToLogin": "Zurück zur Anmeldung"
+    },
+    "resetPassword": {
+      "title": "Neues Passwort festlegen",
+      "subtitle": "Geben Sie unten Ihr neues Passwort ein.",
+      "password": "Neues Passwort",
+      "confirmPassword": "Neues Passwort bestätigen",
+      "submit": "Passwort zurücksetzen",
+      "success": "Passwort erfolgreich zurückgesetzt! Sie können sich jetzt mit Ihrem neuen Passwort anmelden.",
+      "error": "Ungültiger oder abgelaufener Link. Bitte fordern Sie einen neuen an.",
+      "errorPassword": "Passwörter stimmen nicht überein.",
+      "backToLogin": "Zurück zur Anmeldung"
+    },
+    "verifyEmail": {
+      "title": "E-Mail-Verifizierung",
+      "success": "Ihre E-Mail wurde erfolgreich verifiziert! Sie können sich jetzt anmelden.",
+      "error": "Ungültiger oder abgelaufener Verifizierungslink.",
+      "backToLogin": "Zur Anmeldung"
+    }
+  },
+  "Impressum": {
+    "title": "Impressum",
+    "responsible": "Verantwortlich gemäß § 5 TMG",
+    "name": "Max Mustermann",
+    "address": "Musterstraße 42",
+    "city": "12345 Berlin",
+    "country": "Deutschland",
+    "contact": "Kontakt",
+    "email": "E-Mail: kontakt@mywebsite.de",
+    "phone": "Telefon: +49 (0) 30 123456789",
+    "disclaimer": {
+      "title": "Haftungsausschluss",
+      "content": "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
+    }
+  },
+  "Footer": {
+    "impressum": "Impressum",
+    "rights": "Alle Rechte vorbehalten.",
+    "description": "Ihr Zugang zu exklusiven Inhalten und Ressourcen."
+  },
+  "Common": {
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "backHome": "Zurück zur Startseite"
+  }
+}

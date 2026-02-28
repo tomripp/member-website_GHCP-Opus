@@ -1,0 +1,138 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "members": "Members Area",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Welcome to myWebsite",
+      "subtitle": "Discover our free content and join our community for exclusive member resources.",
+      "cta": "Get Started",
+      "ctaMembers": "Member Area"
+    },
+    "features": {
+      "title": "Explore Our Content",
+      "articles": {
+        "title": "Latest Articles",
+        "description": "Stay up to date with our latest insights, tutorials, and industry news. Fresh content published weekly.",
+        "content": "Our team of experts regularly publishes in-depth articles covering the latest trends in technology, design, and business. Whether you're a beginner or an experienced professional, you'll find valuable content here."
+      },
+      "guides": {
+        "title": "Getting Started Guides",
+        "description": "Step-by-step guides to help you get started with our platform and make the most of available resources.",
+        "content": "From your first steps to advanced techniques, our comprehensive guides walk you through everything you need to know. Each guide includes practical examples and real-world applications."
+      },
+      "community": {
+        "title": "Community",
+        "description": "Join our growing community of professionals and enthusiasts sharing knowledge and experiences.",
+        "content": "Connect with like-minded individuals, participate in discussions, and share your own expertise. Our community is built on collaboration and mutual support."
+      }
+    }
+  },
+  "MembersPage": {
+    "title": "Members Area",
+    "subtitle": "Welcome back! Here's your exclusive content.",
+    "premium": {
+      "title": "Premium Article: Advanced Strategies",
+      "description": "Deep dive into advanced strategies that will take your skills to the next level. This exclusive content is only available to registered members.",
+      "tag": "Premium"
+    },
+    "tutorial": {
+      "title": "Exclusive Tutorial: Building for Scale",
+      "description": "Learn how to build scalable systems with our step-by-step exclusive tutorial series. Includes code examples and best practices.",
+      "tag": "Tutorial"
+    },
+    "dashboard": {
+      "title": "Member Dashboard",
+      "description": "Track your progress, manage your profile, and access personalized recommendations based on your interests.",
+      "tag": "Dashboard"
+    },
+    "webinar": {
+      "title": "Upcoming Webinar: Industry Trends 2026",
+      "description": "Join our live webinar on March 15th where industry experts discuss emerging trends and their impact on the market.",
+      "tag": "Event"
+    }
+  },
+  "Auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Welcome back! Please sign in to your account.",
+      "email": "Email Address",
+      "password": "Password",
+      "submit": "Sign In",
+      "forgotPassword": "Forgot your password?",
+      "noAccount": "Don't have an account?",
+      "register": "Register here",
+      "error": "Invalid email or password. Please make sure your email is verified.",
+      "success": "Signed in successfully!"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join myWebsite to access exclusive member content.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "login": "Sign in here",
+      "success": "Account created! Please check your email to verify your account.",
+      "errorEmail": "An account with this email already exists.",
+      "errorPassword": "Passwords do not match.",
+      "errorGeneral": "Something went wrong. Please try again."
+    },
+    "forgotPassword": {
+      "title": "Reset Password",
+      "subtitle": "Enter your email address and we'll send you a link to reset your password.",
+      "email": "Email Address",
+      "submit": "Send Reset Link",
+      "success": "If an account with that email exists, we've sent a password reset link.",
+      "backToLogin": "Back to login"
+    },
+    "resetPassword": {
+      "title": "Set New Password",
+      "subtitle": "Enter your new password below.",
+      "password": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "submit": "Reset Password",
+      "success": "Password reset successfully! You can now sign in with your new password.",
+      "error": "Invalid or expired reset link. Please request a new one.",
+      "errorPassword": "Passwords do not match.",
+      "backToLogin": "Back to login"
+    },
+    "verifyEmail": {
+      "title": "Email Verification",
+      "success": "Your email has been verified successfully! You can now sign in.",
+      "error": "Invalid or expired verification link.",
+      "backToLogin": "Go to login"
+    }
+  },
+  "Impressum": {
+    "title": "Impressum",
+    "responsible": "Responsible according to § 5 TMG",
+    "name": "Max Mustermann",
+    "address": "Musterstraße 42",
+    "city": "12345 Berlin",
+    "country": "Germany",
+    "contact": "Contact",
+    "email": "Email: kontakt@mywebsite.de",
+    "phone": "Phone: +49 (0) 30 123456789",
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": "Despite careful content control, we assume no liability for the content of external links. The content of the linked pages is the sole responsibility of their operators."
+    }
+  },
+  "Footer": {
+    "impressum": "Impressum",
+    "rights": "All rights reserved.",
+    "description": "Your gateway to exclusive content and resources."
+  },
+  "Common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "backHome": "Back to Home"
+  }
+}
