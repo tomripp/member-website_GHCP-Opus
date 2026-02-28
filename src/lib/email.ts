@@ -3,6 +3,7 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+const FROM_EMAIL = process.env.RESEND_FROM_EMAIL || 'myWebsite <onboarding@resend.dev>';
 
 export async function sendVerificationEmail(email: string, token: string, locale: string = 'en') {
   const verifyUrl = `${APP_URL}/${locale}/auth/verify-email?token=${token}`;
@@ -43,7 +44,7 @@ export async function sendVerificationEmail(email: string, token: string, locale
     `;
 
   await resend.emails.send({
-    from: 'myWebsite <onboarding@resend.dev>',
+    from: FROM_EMAIL,
     to: [email],
     subject,
     html: htmlContent,
@@ -89,7 +90,7 @@ export async function sendPasswordResetEmail(email: string, token: string, local
     `;
 
   await resend.emails.send({
-    from: 'myWebsite <onboarding@resend.dev>',
+    from: FROM_EMAIL,
     to: [email],
     subject,
     html: htmlContent,
